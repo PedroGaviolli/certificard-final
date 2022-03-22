@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container {
+  position: relative;
+  color: #1c1c1c;
+  background: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px 0px #0e1d2f;
+  padding: 64px;
+}
+.perfil {
+  display: flex;
+  aling-items: center;
+}
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.perfil-foto:hover {
+  transform: scale(0.95);
+  box-shadow: 6px 6px 6px 0px grey;
+}
+.titulo {
+  margin-left: 16px;
+  margin-top: -22px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: -25px;
+}
+.titulo img {
+  width: 30px;
+  margin: 15px 5px 0 5px;
+  padding: 10 10;
+  transition: 0.4s;
+}
+.titulo img:hover {
+  transform: scale(1.15);
+}
+.tema-botao {
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  right: 64px;
+  font-weight: 400;
+  font-size: 24px;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  transition: 0.4s;
+}
+.tema-botao:hover {
+  transform: scale(0.98);
+  box-shadow: 6px 6px 6px 0px grey;
+}
+.fundo-projeto {
+  background: lightgrey;
+  margin-top: 32px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px 0px #0e1d2f;
+  padding: 5px 0px;
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projeto-lista {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: 0.4s;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 12px;
+}
+.projeto-lista a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.projeto-lista:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background: #333439;
+}
+.dark .perfil-foto:hover {
+  transform: scale(0.95);
+  box-shadow: 6px 6px 6px 0px black;
+}
+.dark .projeto-lista {
+  color: #f6f6f6;
+}
+.dark .perfil {
+  color: #f6f6f6;
+}
+.dark .tema-botao {
+  background: #2b2b2b;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+.dark .tema-botao:hover {
+  transform: scale(0.98);
+  box-shadow: 6px 6px 6px 0px black;
+}
+.dark .fundo-projeto {
+  background: dimgray;
+}
